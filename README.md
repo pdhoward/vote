@@ -1,9 +1,6 @@
-# Describe
+# VOTE
 
-A static website which renders the content used to drive the behavior of proxy apps.
-
-A proxy app operates at the direction of an owner. Owners may be companies, brands, users, products which describe specific behaviors expected of an application. The apps are cognitive -- with embedded intelligence to parse texts, identify entities, ascertain sentiment and other critical elements --- and execute based on owner directives.
-
+A static website for casting and capturing votes
 
 ## Features
 
@@ -18,7 +15,6 @@ A proxy app operates at the direction of an owner. Owners may be companies, bran
 - Google Analytics (optional)
 - Progressive Web App
 - Offline Support
-- RSS Feed
 - Stylelint support for Styled Components to lint the CSS in JS
 
 ## Getting Started
@@ -26,7 +22,7 @@ A proxy app operates at the direction of an owner. Owners may be companies, bran
 ### Install
 
 ```
-git clone https://github.com/pdhoward/describe
+git clone https://github.com/pdhoward/vote
 npm i
 ```
 
