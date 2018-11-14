@@ -80,63 +80,63 @@ const Vote1 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote2 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote3 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote4 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote5 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote6 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote7 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote8 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Vote9 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 50px;
+  min-height: 25px;
   resize: vertical;
 `
 const Submit = styled.input`
@@ -240,6 +240,15 @@ class ContactForm extends React.Component {
       name: '',
       email: '',
       message: '',
+      creative: '',
+      disruptive: '',
+      technical: '',
+      entertain: '',
+      social: '',
+      cool: '',
+      execution: '',
+      design: '',
+      project: '',
       showModal: true,
     })
   }
@@ -354,12 +363,11 @@ class ContactForm extends React.Component {
           onChange={this.handleInputChange}
           required
         />
-        <Submit name="submit" type="submit" value="Send" />
+        <Submit name="submit" type="submit" value="SUBMIT VOTE" />
 
         <Modal visible={this.state.showModal}>
           <p>
-            Thank you for reaching out. I will get back to you as soon as
-            possible.
+            Thank you for your vote!
           </p>
           <Button onClick={this.closeModal}>Okay</Button>
         </Modal>
