@@ -53,35 +53,10 @@ const Menu = () => {
             <Link to="/" exact activeStyle={activeLinkStyle}>
               Home
             </Link>
-          </li>
-          <li>
-            <Link to="/ask/" activeStyle={activeLinkStyle}>
-              Ask
-            </Link>
-          </li>
-          <li>
-            <Link to="/notify/" activeStyle={activeLinkStyle}>
-              Notify
-            </Link>
-          </li>
-          <li>
-            <Link to="/sell/" activeStyle={activeLinkStyle}>
-              Sell
-            </Link>
-          </li>
-          <li>
-            <Link to="/config/" activeStyle={activeLinkStyle}>
-              Config
-            </Link>
-          </li>
+          </li>          
           <li>
             <Link to="/counter/" activeStyle={activeLinkStyle}>
               Counter
-            </Link>
-          </li>
-          <li>
-            <Link to="/file/" activeStyle={activeLinkStyle}>
-              Files
             </Link>
           </li>          
           <li>
@@ -91,7 +66,7 @@ const Menu = () => {
           </li>
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
-              Contact
+              Vote
             </Link>
           </li>
         </ul>
