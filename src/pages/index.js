@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from "../images/mercyblueicon.jpg"
+import logo from "../images/uncc.jpg"
 import SEO from '../components/SEO'
 
 
@@ -33,7 +33,7 @@ export default () => (
   <div>
     <Wrapper>
       <br></br>
-      <p>Mercy Mobile Configurations</p>
+      <p>UNCC BOOTCAMP VOTING BOOTH</p>
       <br></br>    
       <img src={logo} alt="Center Images" className="center" />
     </Wrapper>
