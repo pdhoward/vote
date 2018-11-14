@@ -56,14 +56,9 @@ const Menu = () => {
           </li>          
           <li>
             <Link to="/counter/" activeStyle={activeLinkStyle}>
-              Counter
+              Vote Counter    
             </Link>
-          </li>          
-          <li>
-            <Link to="/about/" activeStyle={activeLinkStyle}>
-              About
-            </Link>
-          </li>
+          </li>           
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
               Vote
