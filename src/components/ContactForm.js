@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import 'whatwg-fetch' // Fetch Polyfill
 
 /*
-  ⚠️ This is an example of a contact form powered with Netlify form handling.
+  ⚠️ This is an example of a form powered with Netlify form handling.
   Be sure to review the Netlify documentation for more information:
   https://www.netlify.com/docs/form-handling/
 */
@@ -76,14 +76,69 @@ const Email = styled.input`
   }
 `
 
-const Message = styled.textarea`
+const Vote1 = styled.textarea`
   width: 100%;
   margin: 0 0 1em 0;
   line-height: 1.6;
-  min-height: 250px;
+  min-height: 50px;
   resize: vertical;
 `
-
+const Vote2 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote3 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote4 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote5 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote6 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote7 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote8 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
+const Vote9 = styled.textarea`
+  width: 100%;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+  min-height: 50px;
+  resize: vertical;
+`
 const Submit = styled.input`
   background: ${props => props.theme.colors.base} !important;
   color: white !important;
@@ -227,11 +282,75 @@ class ContactForm extends React.Component {
           onChange={this.handleInputChange}
           required
         />
-        <Message
-          name="message"
+        <Vote1
+          name="creative"
           type="text"
-          placeholder="Message"
-          value={this.state.message}
+          placeholder="Most Creative"
+          value={this.state.creative}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote2
+          name="disruptive"
+          type="text"
+          placeholder="Most Disruptive"
+          value={this.state.disruptive}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote3
+          name="technical"
+          type="text"
+          placeholder="Most Technically Challenging"
+          value={this.state.technical}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote4
+          name="entertain"
+          type="text"
+          placeholder="Most Entertaining"
+          value={this.state.entertain}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote5
+          name="social"
+          type="text"
+          placeholder="Most Socially Conscious"
+          value={this.state.social}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote6
+          name="cool"
+          type="text"
+          placeholder="Highest Cool Factor"
+          value={this.state.cool}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote7
+          name="execution"
+          type="text"
+          placeholder="Best Execution"
+          value={this.state.execution}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote8
+          name="design"
+          type="text"
+          placeholder="Top Design (ui/ux)"
+          value={this.state.design}
+          onChange={this.handleInputChange}
+          required
+        />
+        <Vote9
+          name="project"
+          type="text"
+          placeholder="Top Project"
+          value={this.state.project}
           onChange={this.handleInputChange}
           required
         />
