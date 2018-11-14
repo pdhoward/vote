@@ -1,8 +1,8 @@
 {
-  "name": "describe",
-  "description": "command console - serving as basis for proxy apps",
+  "name": "vote",
+  "description": "caast and capture votes",
   "version": "0.5.0",
-  "repository": "https://github.com/pdhoward/describe",
+  "repository": "https://github.com/pdhoward/vote",
   "author": "Strategic Machines",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
