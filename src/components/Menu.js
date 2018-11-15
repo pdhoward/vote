@@ -53,15 +53,20 @@ const Menu = () => {
             <Link to="/" exact activeStyle={activeLinkStyle}>
               Home
             </Link>
-          </li>          
-          <li>
-            <Link to="/counter/" activeStyle={activeLinkStyle}>
-              Vote Counter    
-            </Link>
-          </li>           
+          </li>                     
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
               Vote
+            </Link>
+          </li>
+          <li>
+            <Link to="/counter/" activeStyle={activeLinkStyle}>
+              Vote Counter
+            </Link>
+          </li>
+          <li>
+            <Link to="/about/" activeStyle={activeLinkStyle}>
+              About
             </Link>
           </li>
         </ul>
