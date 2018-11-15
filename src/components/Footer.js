@@ -111,7 +111,7 @@ const Footer = () => (
     <Wrapper>
       <Social>
         <li>
-          <a href="https://twitter.com/chaoticbots" target="_blank">
+          <a href="https://www.linkedin.com/company/strategic-machines-inc/" target="_blank">
             <img src={smlogo} alt="no deal" />
           </a>
         </li>
