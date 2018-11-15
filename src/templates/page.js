@@ -8,6 +8,9 @@ import SEO from '../components/SEO'
 
 const PageTemplate = ({ data }) => {
   const { title, slug, body } = data.contentfulPage
+  console.log(title)
+  console.log(slug)
+  console.log(body)
   const postNode = data.contentfulPage
 
   return (

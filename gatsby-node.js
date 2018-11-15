@@ -18,6 +18,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       }
     `).then(result => {
       result.data.allContentfulPage.edges.map(({ node }) => {
+        console.log("contentful fetch")
+        console.log(JSON.stringify(result, null, 2))
         createPage({
           path: `${node.slug}/`,
           component: path.resolve(`./src/templates/page.js`),
