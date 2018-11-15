@@ -29,7 +29,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       resolve()
     })
   })
-
+/*
   ////////////////////////////////////////////
   /////    content collection         ///////
   ////    with pages/ask.js          ///////
@@ -209,5 +209,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   })
   
   return Promise.all([loadPages, loadAsks, loadApps, loadNotifyPosts, loadNotifyApps, loadSellPosts, loadSellApps])
-  
+  */
+  return Promise.all([loadPages])
 }
